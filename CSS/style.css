@@ -1,0 +1,114 @@
+html {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(../Images/background.png);
+}
+
+#title, #rulesButton, #resetButton, h1{
+    padding: 20px 90px 15px 90px;
+    border-radius: 15px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: -20px;
+    margin-bottom: 2em;
+    box-shadow: inset 0px -5px 1px darkgrey, 6px 7px 3px rgba(66, 66, 66, 0.5);
+    background-color: black;
+    color: pink;
+}
+
+.score1 {
+    background-color: blue;
+    left: 30%;
+}
+
+.score2 {
+    background-color: orangered;
+    right: 30%;
+}
+
+img {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 75px;
+    height: 75px;
+}
+
+#scores {
+    position: absolute;
+    top: 10%;
+    display: inline-block;
+    text-align: center;
+    font-size: 36px;
+    width: 15%;
+    border-radius: 10px;
+    font-weight: 800;
+    box-shadow: inset 0 -5px 1px darkgrey, 6px 7px 3px rgba(66, 66, 66, 0.5);
+    padding-left: 5px;
+}
+
+#Player1Score {
+    font-size: 100px;
+    vertical-align: middle;
+}
+
+#Player2Score {
+    font-size: 100px;
+    vertical-align: middle;
+}
+
+.diHolder {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    width: 8%;
+    border-radius: 10px;
+    font-weight: 800;
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: inset 0 -5px 1px darkgrey, 6px 7px 3px rgba(66, 66, 66, 0.5);
+}
+
+#button {
+    border-radius: 5px;
+    border-color: white;
+    font-weight: 800;
+    width: 60px;
+    background-color: pink;
+}
+
+#button:hover {
+    transform: scale(1.2) perspective(1px);
+    background-color: pink;
+}
+
+#rulesButton {
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 30px;
+    width: 150px;
+    vertical-align: middle;
+}
+
+#resetButton {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
